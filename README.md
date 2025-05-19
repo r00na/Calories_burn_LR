@@ -1,17 +1,57 @@
-# Calories_burn_LR
+# 🔥 Calories Burn Predictor App
 
-Project Overview
+🎯 **Objective**
+Predict the number of calories burned during a workout session based on personal and workout data using **Linear Regression** 🧠.
 
-Calories Burn Predictor is a web-based application built using Streamlit that estimates the number of calories burned during a workout based on user inputs such as age, weight, height, workout duration, and heart rate. The prediction is powered by a pre-trained Machine Learning model.
 
-# Features
+## 🖥️ App Overview
 
-User-friendly interface with interactive sliders for data input
+This Streamlit app allows users to input personal and exercise-related data to predict how many **calories** they burn. The UI is elegantly styled and includes smart insights for fitness tracking.
 
-Machine Learning model to predict calories burned
+## 📊 Features
 
-Real-time prediction with a simple click
+* 🧑‍🤝‍🧑 **User Inputs**: Gender, Age, Height, Weight
+* ⏱️ **Workout Details**: Duration, Heart Rate, Workout Type & Intensity
+* 🔍 **Prediction Output**:
 
-Responsive design with a green-themed UI
+  * Total Calories Burned
+  * kcal/min
+  * Efficiency %
+  * MET (Metabolic Equivalent of Task)
+* 💡 **Fitness Tips** based on your result
+* 💻 Built with **Streamlit** and styled using **custom CSS**
+* 📦 Load and use a trained Linear Regression model (`model.pkl`) for predictions
 
-Visual effects like balloons upon successful prediction
+
+## 🧪 Machine Learning Model
+
+ **Linear Regression** model trained to estimate calories burned with excellent accuracy.
+**Model Performance Metrics:**
+
+| Metric      | Value  |
+| ----------- | ------ |
+| Average R²  | 0.9666 |
+| Average MAE | 8.34   |
+| Average MSE | 127.22 |
+
+## 🖼️ UI Preview
+
+| Input Form (User Data)        | Prediction Output (Calories Burned)         |
+| ----------------------------- | ------------------------------------------- |
+| ![Input Form](images/input_form.png) | ![Prediction Result](images/prediction_output.png) |
+
+
+## 🚀 How to Run the App
+
+1. ✅ Make sure you have Python 3.x installed
+2. 📦 Install dependencies:
+
+```bash
+pip install streamlit pandas scikit-learn
+```
+
+3. ▶️ Run the app:
+
+```bash
+streamlit run app.py
+```
