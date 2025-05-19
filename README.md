@@ -36,10 +36,11 @@ This Streamlit app allows users to input personal and exercise-related data to p
 
 ## 🖼️ UI Preview
 
-| Input Form (User Data)        | Prediction Output (Calories Burned)         |
-| ----------------------------- | ------------------------------------------- |
-| ![Input Form](images/input_form.png) | ![Prediction Result](images/prediction_output.png) |
+### Input Form (User Data)  
+![Input Form](images/input_form.png)
 
+### Prediction Output (Calories Burned)  
+![Prediction Result](images/prediction_output.png)
 
 ##  How to Run the App
 
