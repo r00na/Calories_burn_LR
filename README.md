@@ -1,7 +1,7 @@
 # 🔥 Calories Burn Predictor App
 
-🎯 **Objective**
-Predict the number of calories burned during a workout session based on personal and workout data using **Linear Regression** 🧠.
+ **Objective**
+Predict the number of calories burned during a workout session based on personal and workout data using **Linear Regression** .
 
 
 ## 🖥️ App Overview
@@ -19,11 +19,11 @@ This Streamlit app allows users to input personal and exercise-related data to p
   * Efficiency %
   * MET (Metabolic Equivalent of Task)
 * 💡 **Fitness Tips** based on your result
-* 💻 Built with **Streamlit** and styled using **custom CSS**
-* 📦 Load and use a trained Linear Regression model (`model.pkl`) for predictions
+*  Built with **Streamlit** and styled using **custom CSS**
+*  Load and use a trained Linear Regression model (`model.pkl`) for predictions
 
 
-## 🧪 Machine Learning Model
+##  Machine Learning Model
 
  **Linear Regression** model trained to estimate calories burned with excellent accuracy.
 **Model Performance Metrics:**
@@ -41,7 +41,7 @@ This Streamlit app allows users to input personal and exercise-related data to p
 | ![Input Form](images/input_form.png) | ![Prediction Result](images/prediction_output.png) |
 
 
-## 🚀 How to Run the App
+##  How to Run the App
 
 1. ✅ Make sure you have Python 3.x installed
 2. 📦 Install dependencies:
