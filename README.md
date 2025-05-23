@@ -42,6 +42,13 @@ This Streamlit app allows users to input personal and exercise-related data to p
 ### Prediction Output (Calories Burned)  
 ![Prediction Result](images/prediction_output.png)
 
+
+## 🌐 Try It Online
+
+You can try the app directly here:  
+🔗 [**Launch Streamlit App**](https://caloriesburnlr-s7u32uzhgzjrccywx7rinx.streamlit.app/)
+
+
 ##  How to Run the App
 
 1. ✅ Make sure you have Python 3.x installed
@@ -56,3 +63,4 @@ pip install streamlit pandas scikit-learn
 ```bash
 streamlit run app.py
 ```
+
